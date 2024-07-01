@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ 
+}
+#navbar{
+    position: sticky;
+    z-index: 100;
+    top: 0%;
+    left: 0%;
+    padding: 2rem 0rem;
+    background-color: black!important;
+    
+   
+}
+
+.navbar-brand{
+    font-size: larger;
+    padding: 3rem;
+    font-weight: bolder;
+    color: teal !important;
+    font-style: italic;
+}
+#navbarSupportedContent a{
+    font-weight: bold;
+    color: white !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid teal ;
+    cursor:grab;
+}
+#form input{
+    color: black;
+}
+#form button{
+    background-color: teal;
+    color:black;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+#Home{
+    background-image:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#Home h1{
+    padding-bottom: 5rem;
+    color:white;
+    text-decoration:solid;
+    font-weight: bolder;
+}
+#About_us{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,.5)), url(contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
+   
+    
+}
+
+#About_us .brand{
+    padding-left: 5rem;
+}
+#About_us ul{
+    padding-top: 3rem;
+    padding-left: 10rem;
+    font-weight: bolder;
+}
+    
+#About_us li{
+    padding-bottom: 1rem;
+    
+}
+#product{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,.5)),url(product_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    border: none !important;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+    width: 240px;
+    height: 300px;
+    transition: .2s ;
+    
+    flex-direction: column;
+    
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 20px black;
+    transition: .2s;
+}
+#product h1{
+    padding: 7rem;
+    color: white;
+    text-align: center;
+
+}
+#contact{
+    background: url(about_us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    text-align: center;
+}
+#contact h2{
+    margin: 30px;
+    padding: 8px;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+    width: 90%;
+    outline: 0px;
+}
+#contact button{
+    width: 90%;
+    align-items: center;
+    justify-content: center ;
+    background-color: teal;
+}
+textarea{
+    width: 90%;
+    padding-top: 10px;
+    margin: 10%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
